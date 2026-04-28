@@ -67,5 +67,5 @@ Send a chat request:
 The live SQLite database is stored at:
 
 ```bash
-./data/chatbot.sqlite
+sqlite3 data/chatbot.sqlite
 ```
