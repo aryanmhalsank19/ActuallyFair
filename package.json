@@ -1,0 +1,27 @@
+{
+  "name": "chatbot-api",
+  "version": "1.0.0",
+  "description": "REST API backend for an activewear chatbot powered by Groq LLM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "stress": "node stress_test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.4.1",
+    "groq-sdk": "^1.1.2",
+    "helmet": "^8.1.0",
+    "sql.js": "^1.14.1",
+    "uuid": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
